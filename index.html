@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dasha Coffee Eatery | Coffee Shop Jember</title>
+  <meta name="description" content="Dasha Coffee Eatery, coffee shop di Jember untuk menikmati manual brew, espresso, non-coffee, dan makanan dalam suasana hangat.">
+  <meta name="theme-color" content="#11100f">
+  <link rel="canonical" href="https://dasha-coffee-eatery.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="Dasha Coffee Eatery | Coffee Shop Jember">
+  <meta property="og:description" content="Coffee, food, and good hours in Jember.">
+  <meta property="og:url" content="https://dasha-coffee-eatery.vercel.app/">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/hero-cafe.webp" as="image" type="image/webp">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2311100f'/%3E%3Cpath d='M17 18h18c9 0 15 6 15 14S44 46 35 46H17V18Zm8 7v14h9c5 0 8-3 8-7s-3-7-8-7h-9Z' fill='%23f3efe8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CafeOrCoffeeShop","name":"Dasha Coffee Eatery","url":"https://dasha-coffee-eatery.vercel.app/","telephone":"+62-852-3697-8808","address":{"@type":"PostalAddress","streetAddress":"Jl. Gatot Subroto No.55, Tembaan, Kepatihan","addressLocality":"Jember","addressRegion":"Jawa Timur","postalCode":"68131","addressCountry":"ID"},"servesCuisine":["Coffee","Indonesian","Cafe"]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten</a>
+  <header class="header" data-header>
+    <a class="wordmark" href="#home" aria-label="Dasha Coffee Eatery"><span>Dasha</span><small>Coffee Eatery</small></a>
+    <nav class="desktop-nav" aria-label="Navigasi utama"><a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#location">Location</a></nav>
+    <a class="header-cta" href="https://wa.me/6285236978808" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Buka menu"><span></span><span></span></button>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Navigasi mobile">
+        <a href="#home"><span>01</span>Home</a><a href="#about"><span>02</span>About</a><a href="#menu"><span>03</span>Menu</a><a href="#gallery"><span>04</span>Gallery</a><a href="#location"><span>05</span>Location</a>
+      </nav>
+      <div class="mobile-menu-foot"><p>Jl. Gatot Subroto No.55<br>Jember, Jawa Timur</p><a href="https://wa.me/6285236978808" target="_blank" rel="noopener noreferrer">0852-3697-8808</a></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image" aria-hidden="true"><img src="assets/hero-cafe.webp" alt="" width="1800" height="1024"></div><div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="hero-meta">Jember · East Java</p>
+        <h1 id="hero-title"><span>DASHA</span><small>Coffee Eatery</small></h1>
+        <div class="hero-bottom"><p>Good coffee.<br>Good hours.</p><div class="hero-actions"><a class="button button-light" href="#menu">Lihat Menu</a><a class="button button-outline-light" href="#location">Lokasi</a></div></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span>Scroll</a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal"><span>01</span>About Dasha</div>
+      <div class="about-layout"><h2 class="section-title reveal">A comfortable pause<br><em>in the city.</em></h2><div class="about-text reveal"><p>Dasha adalah tempat untuk menikmati kopi, makanan hangat, dan waktu yang berjalan sedikit lebih pelan.</p><p>Datang sendiri, bersama teman, atau sekadar mencari tempat nyaman di tengah Jember.</p></div></div>
+      <div class="experience-line reveal" aria-label="Pengalaman di Dasha"><span>Manual brew</span><i></i><span>Comfort food</span><i></i><span>Open until midnight</span></div>
+    </section>
+
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="menu-intro"><div><div class="section-label reveal"><span>02</span>Menu</div><h2 class="section-title reveal" id="menu-title">Pick your<br><em>favorite.</em></h2></div><p class="menu-note reveal">Kopi, non-coffee, dan comfort food untuk menemani waktu santai.</p></div>
+      <div class="filters reveal" role="group" aria-label="Filter kategori menu"><button class="is-active" type="button" data-filter="all">Semua</button><button type="button" data-filter="manual">Manual Brew</button><button type="button" data-filter="espresso">Espresso</button><button type="button" data-filter="noncoffee">Non Coffee</button><button type="button" data-filter="food">Food</button></div>
+      <div class="menu-grid">
+        <article class="menu-category reveal" data-category="manual"><header><span>01</span><h3>Manual Brew</h3></header><div class="menu-row"><div><h4>V60</h4><small>Hot / Ice</small></div><p><span>Rp15.000</span><span>Rp20.000</span></p></div><div class="menu-row"><h4>Tubruk Robusta</h4><p>Rp5.000</p></div><div class="menu-row"><h4>Tubruk Arabika</h4><p>Rp8.000</p></div></article>
+        <article class="menu-category reveal" data-category="espresso"><header><span>02</span><h3>Espresso Based</h3></header><div class="menu-row"><h4>Espresso</h4><p>Rp15.000</p></div><div class="menu-row"><h4>Cappuccino</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Cafe Latte</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Mochacino</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Hestia Vesta</h4><p>Rp15.000</p></div></article>
+        <article class="menu-category reveal" data-category="noncoffee"><header><span>03</span><h3>Non Coffee</h3></header><div class="menu-row"><h4>Matcha Latte</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Chocolate</h4><p>Rp15.000</p></div><div class="menu-row"><h4>Taro Latte</h4><p>Rp15.000</p></div><div class="menu-row"><h4>Red Velvet</h4><p>Rp15.000</p></div></article>
+        <article class="menu-category reveal" data-category="food"><header><span>04</span><h3>Food</h3></header><div class="menu-row"><h4>Chicken Rice</h4><p>Rp13.000</p></div><div class="menu-row"><h4>Mix Platter</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Nasi Goreng Belacan</h4><p>Rp13.000</p></div><div class="menu-row"><h4>Spaghetti Carbonara</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Classic Spaghetti Aglio Olio</h4><p>Rp18.000</p></div><div class="menu-row"><h4>Pudding</h4><p>Rp10.000</p></div></article>
+      </div>
+    </section>
+
+    <section class="signature section-dark" aria-labelledby="signature-title">
+      <div class="signature-copy reveal"><div class="section-label light"><span>03</span>Dasha's pick</div><h2 id="signature-title">Butterscotch<br><em>Coffee</em></h2><p>Manis lembut dengan karakter kopi yang tetap terasa. Dibuat untuk dinikmati perlahan.</p><a class="text-link" href="#location">Nikmati di Dasha <span>↗</span></a></div>
+      <button class="signature-photo reveal" type="button" data-lightbox-src="assets/butterscotch.webp" data-lightbox-alt="Butterscotch coffee dingin dengan lapisan kopi dan susu" aria-label="Perbesar foto Butterscotch Coffee"><img src="assets/butterscotch.webp" alt="Butterscotch coffee dingin dengan lapisan kopi dan susu" width="1200" height="1600" loading="lazy"></button>
+    </section>
+
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <div class="gallery-heading"><div><div class="section-label reveal"><span>04</span>Gallery</div><h2 class="section-title reveal" id="gallery-title">Inside<br><em>Dasha.</em></h2></div><p class="reveal">Coffee, plates, and corners made for good conversations.</p></div>
+      <div class="gallery-grid"><button class="gallery-item gallery-main reveal" type="button" data-lightbox-src="assets/hero-cafe.webp" data-lightbox-alt="Es kopi di bar Dasha"><img src="assets/hero-cafe.webp" alt="Es kopi di bar Dasha" width="1800" height="1024" loading="lazy"><span>Coffee</span></button><button class="gallery-item reveal" type="button" data-lightbox-src="assets/gallery-table.webp" data-lightbox-alt="Matcha dan hidangan di Dasha"><img src="assets/gallery-table.webp" alt="Matcha dan hidangan di Dasha" width="1800" height="1200" loading="lazy"><span>Food & Drinks</span></button><button class="gallery-item reveal" type="button" data-lightbox-src="assets/butterscotch.webp" data-lightbox-alt="Butterscotch Coffee"><img src="assets/butterscotch.webp" alt="Butterscotch Coffee" width="1200" height="1600" loading="lazy"><span>Signature</span></button></div>
+    </section>
+
+    <section class="location section-dark" id="location" aria-labelledby="location-title">
+      <div class="location-heading"><div class="section-label light reveal"><span>05</span>Location</div><h2 class="reveal" id="location-title">Find us in<br><em>Jember.</em></h2></div>
+      <div class="location-grid"><a class="map reveal" href="https://www.google.com/maps/search/?api=1&query=Dasha+Coffee+Eatery+Jl.+Gatot+Subroto+No.55+Jember" target="_blank" rel="noopener noreferrer" aria-label="Buka lokasi Dasha Coffee Eatery di Google Maps"><img src="assets/location-map.webp" alt="Peta lokasi Dasha Coffee Eatery di Jalan Gatot Subroto, Jember" width="875" height="852" loading="lazy"><span>Buka Google Maps <b>↗</b></span></a><div class="location-info reveal"><p class="place-name">Dasha Coffee Eatery</p><address>Jl. Gatot Subroto No.55,<br>Tembaan, Kepatihan,<br>Kec. Kaliwates, Kabupaten Jember,<br>Jawa Timur 68131</address><div class="open-status"><span>Jam operasional</span><strong>Tutup pukul 00.00</strong></div><div class="location-actions"><a class="button button-light" href="https://www.google.com/maps/search/?api=1&query=Dasha+Coffee+Eatery+Jl.+Gatot+Subroto+No.55+Jember" target="_blank" rel="noopener noreferrer">Get Directions</a><a class="button button-outline-light" href="https://wa.me/6285236978808" target="_blank" rel="noopener noreferrer">WhatsApp</a><a class="phone" href="tel:+6285236978808">0852-3697-8808</a></div></div></div>
+    </section>
+
+    <section class="closing section"><p class="reveal">Coffee is waiting.</p><h2 class="reveal">See you<br><em>at Dasha.</em></h2><div class="closing-actions reveal"><a class="button button-dark" href="https://www.google.com/maps/search/?api=1&query=Dasha+Coffee+Eatery+Jl.+Gatot+Subroto+No.55+Jember" target="_blank" rel="noopener noreferrer">Get Directions</a><a class="button button-outline-dark" href="https://wa.me/6285236978808" target="_blank" rel="noopener noreferrer">WhatsApp</a></div></section>
+  </main>
+
+  <footer class="footer"><a class="wordmark footer-mark" href="#home"><span>Dasha</span><small>Coffee Eatery</small></a><nav aria-label="Navigasi footer"><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#location">Location</a><a href="https://wa.me/6285236978808" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav><p>Jember, East Java</p><p>© 2026 Dasha Coffee Eatery</p></footer>
+  <dialog class="lightbox" aria-label="Tampilan gambar penuh"><button class="lightbox-close" type="button" aria-label="Tutup gambar">×</button><img src="" alt=""><p></p></dialog>
+  <script src="script.js" defer></script>
+</body>
+</html>

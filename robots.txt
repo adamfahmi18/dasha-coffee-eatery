@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dasha-coffee-eatery.vercel.app/sitemap.xml
